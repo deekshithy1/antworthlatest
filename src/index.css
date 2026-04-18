@@ -1,0 +1,47 @@
+/* @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --font-brand: "Poppins", sans-serif;
+} */
+ /* 1. Imports FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* 2. Tailwind (if using) */
+
+@import "tailwindcss";
+/* 3. Your custom CSS */
+:root {
+  --font-brand: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-brand);
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scrollDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.marquee-up {
+  animation: scrollUp 20s linear infinite;
+}
+
+.marquee-down {
+  animation: scrollDown 20s linear infinite;
+}
+

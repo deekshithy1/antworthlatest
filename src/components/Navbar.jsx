@@ -12,17 +12,19 @@ const Navbar = () => {
 
             {/* Nav Links */}
             <div className='hidden md:flex w-1/3 justify-evenly'>
-                <Link to="/">Home</Link>
-                <Link to="/services">Services</Link>
-                <Link to='/products'>Products</Link>
+                <a href="#">Home</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contactus">Contact Us</a>
+        
             </div>
 
             {/* Button */}
-            <div>
+            {/* <div>
                 <button className='border border-gray-300 px-3 py-2 sm:p-3 rounded-2xl bg-[#F8D166] font-semibold text-sm sm:text-base'>
                   Contact Us
                 </button>
-            </div>
+            </div> */}
 
         </div>
     </div>

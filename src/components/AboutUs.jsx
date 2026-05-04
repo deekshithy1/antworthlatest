@@ -17,7 +17,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section className="relative min-h-screen bg-[#fafafa] py-24 px-6 lg:px-40 overflow-hidden flex items-center justify-center">
+    <section id='aboutus' className="relative min-h-screen bg-[#fafafa] py-24 px-6 lg:px-40 overflow-hidden flex items-center justify-center">
       {/* Decorative Background "Wave" - Matching your previous images */}
       <div className="absolute top-0 right-0 w-full h-full opacity-30 pointer-events-none">
         <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">

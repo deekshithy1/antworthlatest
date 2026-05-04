@@ -4,7 +4,7 @@ import { MapPinCheck, PhoneCall, MailCheck, Bird,ArrowUpRight } from 'lucide-rea
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-[#1A1A1A] text-gray-400 py-16 px-8 md:px-24'>
+    <footer id='contactus' className='w-full bg-[#1A1A1A] text-gray-400 py-16 px-8 md:px-24'>
       
       <div className='max-w-7xl mx-auto'>
         {/* Top Section: Branding & CTA */}
